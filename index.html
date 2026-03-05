@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The "VitalSigns" Patient Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script type="module" src="main.js"></script>
+<script type="module" src="data.js"></script>
+
+<body>
+
+    <header>
+        <h1>Jalisco School Finder</h1>
+    </header>
+
+    <main>
+        <section class="form-container">       
+                    <input 
+                        type="text" 
+                        id="full-name" 
+                        name="fullName" 
+                        required 
+                        placeholder="Search by name">
+
+                    <select id="municipios-selector" name="municipios-selector">
+                        <option value="">Select your Municipio</option>
+                    </select>
+
+                    <select id="niveles-selector" name="niveles-slector">
+                        <option value="">Select your Nivel</option>
+                    </select>
+
+                    <input type="submit" value="Search" id="search-btn" class="submit-btn">
+        </section>
+        <div class="search-results">
+
+        </div>
+    </main>
+    
+
+</body>
+</html>

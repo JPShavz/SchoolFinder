@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container {
+    display: flex;
+    margin:1rem ;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid slategrey;
+}
+
+
+.submit-btn {
+    background-color: #1e73d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #155ab6;
+}
+
+.search-results {
+    margin:1rem ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.result-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid slategrey;
+}
